@@ -11,13 +11,13 @@ output "PRIVATE_ALB_ARN" {
 }
 
 output "PUBLIC_ALB_ADDRESS" {
-  value = module.alb_public.ALB_ADDRESS
+  value = module.alb-public.ALB_ADDRESS
 }
 
 output "PRIVATE_ALB_ADDRESS" {
-  value = module.alb_private.ALB_ADDRESS
+  value = module.alb-private.ALB_ADDRESS
 }
 
 output "PRIVATE_LISTENER_ARN" {
-  value = module.alb_private.LISTENER_ARN[0]
+  value = module.alb-private.LISTENER_ARN[0]
 }
